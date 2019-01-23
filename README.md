@@ -1,37 +1,13 @@
 # Context Mover’s Distance & Barycenters: Optimal transport of contexts for building representations
 
 ## Abstract
-We present a framework for building unsuper-
-vised representations of entities and their compo-
-sitions, where each entity is viewed as a proba-
-bility distribution rather than a fixed length vec-
-tor. In particular, this distribution is supported
-over the contexts which co-occur with the entity
-and are embedded in a suitable low-dimensional
-space. This enables us to consider the problem of
-representation learning with a perspective from
-Optimal Transport and take advantage of its nu-
-merous tools such as Wasserstein distance and
-Wasserstein barycenters. We elaborate how the
-method can be applied for obtaining unsupervised
-representations of text and illustrate the perfor-
-mance quantitatively as well as qualitatively on
-tasks such as measuring sentence similarity and
-word entailment, where we empirically observe
-significant gains.
+We present a framework for building unsupervised representations of entities and their compositions, where each entity is viewed as a probability distribution rather than a fixed length vector. In particular, this distribution is supported over the contexts which co-occur with the entity and are embedded in a suitable low-dimensional space. This enables us to consider the problem of representation learning with a perspective from Optimal Transport and take advantage of its numerous tools such as Wasserstein distance and Wasserstein barycenters. We elaborate how the method can be applied for obtaining unsupervised representations of text and illustrate the performance quantitatively as well as qualitatively on tasks such as measuring sentence similarity and word entailment, where we empirically observe significant gains. 
 
-The key benefits of the proposed approach include:
-(a) capturing uncertainty and polysemy via mod-
-eling the entities as distributions, (b) utilizing the
-underlying geometry of the particular task (with
-the ground cost), (c) simultaneously providing in-
-terpretability with the notion of optimal transport
-between contexts and (d) easy applicability on
-the top of existing point embedding methods. In
-essence, the framework can be useful for any unsu-
-pervised or supervised problem (on text or other
-modalities); and only requires a co-occurrence
-structure inherent to many problems.
+The key benefits of the proposed approach include: \
+(a) capturing uncertainty and polysemy via modeling the entities as distributions \
+(b) utilizing the underlying geometry of the particular task (with the ground cost) \
+(c) simultaneously providing interpretability with the notion of optimal transport between contexts and \
+(d) easy applicability on the top of existing point embedding methods. In essence, the framework can be useful for any unsupervised or supervised problem (on text or other modalities); and only requires a co-occurrence structure inherent to many problems. 
 
 ## Pre-trained co-occurrences/histograms/vectors
 
