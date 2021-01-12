@@ -72,3 +72,15 @@ python wasserstein.py   --cluster-data-dir ./data/vectors/clusters/book_glove_sy
                         --marginals-path ./data/cooc/book_coocurrence_symmetric=1_window-size=10_cleaned=300/ppmi_smooth_0.75_k-shift_1.0_marginals.npz
 
 ```
+
+If you use any of the code or pre-built histograms for your research, please consider citing the paper as follows.
+```
+@inproceedings{singh2020context,
+  title={Context mover’s distance \& barycenters: Optimal transport of contexts for building representations},
+  author={Singh, Sidak Pal and Hug, Andreas and Dieuleveut, Aymeric and Jaggi, Martin},
+  booktitle={International Conference on Artificial Intelligence and Statistics},
+  pages={3437--3449},
+  year={2020},
+  organization={PMLR}
+}
+```
